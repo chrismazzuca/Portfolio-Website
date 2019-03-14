@@ -1,0 +1,50 @@
+[debug] [2019-03-14T01:57:20.390Z] ----------------------------------------------------------------------
+[debug] [2019-03-14T01:57:20.393Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-03-14T01:57:20.394Z] CLI Version:   3.16.0
+[debug] [2019-03-14T01:57:20.394Z] Platform:      darwin
+[debug] [2019-03-14T01:57:20.394Z] Node Version:  v6.11.0
+[debug] [2019-03-14T01:57:20.394Z] Time:          Wed Mar 13 2019 21:57:20 GMT-0400 (EDT)
+[debug] [2019-03-14T01:57:20.395Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-14T01:57:20.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-14T01:57:20.410Z] > authorizing via signed-in user
+[debug] [2019-03-14T01:57:20.413Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-03-14T01:57:20.413Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/_PeXghoVQ7AifYgKyy7Sa9zkQjD-2gqXk-wlS3HYBrYuPENB6nQkKaH8sKZzNuFg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Mar 13 2019 21:57:20 GMT-0400 (EDT)
+[debug] [2019-03-14T01:57:20.730Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-14T01:57:20.750Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-6d0f0  
+  
+ Wed Mar 13 2019 21:57:20 GMT-0400 (EDT)
+[debug] [2019-03-14T01:57:21.039Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-14T01:57:21.041Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-6d0f0/tokens  
+  
+ Wed Mar 13 2019 21:57:21 GMT-0400 (EDT)
+[debug] [2019-03-14T01:57:21.612Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'portfolio-6d0f0'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing mim directory for upload...
+[debug] [2019-03-14T01:57:22.360Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/portfolio-6d0f0/uploads/-L_tul-3r6towYhHKeiH?fileCount=74&message=  
+  
+ Wed Mar 13 2019 21:57:22 GMT-0400 (EDT)
+[debug] [2019-03-14T01:57:28.066Z] <<< HTTP RESPONSE 410
+[debug] [2019-03-14T01:57:28.066Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-03-14T01:57:28.069Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:45:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1085:12)
+    at IncomingMessage.g (events.js:292:16)
+[error] 
+[error] Error: An unexpected error has occurred.
