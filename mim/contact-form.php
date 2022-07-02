@@ -17,7 +17,7 @@
 		Email Address: $email \n
 		Message: $message";
 		
-		$recipient = "christopher.mazzuca@mail.utoronto.ca";
+		$recipient = "christopher.mazzuca@outlook.com";
 		$subject = "Portfolio Website Inquiry";
 		$mailheader = "From: $email \r\n";
 		mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
