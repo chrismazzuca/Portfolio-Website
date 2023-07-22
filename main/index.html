@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body style="position: absolute;">
 
     <!-- Loading Bar Start -->
     <div id="loading">
@@ -38,7 +38,7 @@
     <header class="header-style-1 bg-color-1" style="width: 100%">
         <div class="top clearfix">
             <div class="header-top active-sticky ptb-50">
-                <div class="container">
+                <div class="container ml-5">
                     <div class="row">
                         <div class="col-xs-6 col-sm-5">
                             <div class="left">
@@ -62,40 +62,18 @@
                                 </nav>
                             </div>
                         </div>
-                        <!-- <div class="expand-menu-open floatright">
-                            <i class="zmdi zmdi-menu"></i>
-                        </div> -->
                     </div>
                 </div>
             </div>
-            <!-- <div class="mainmenu-expand bg-color-3">
-                <div class="close-menu">
-                    <i class="zmdi zmdi-close-circle-o"></i>
-                </div>
-                <div class="menu-logo">
-                    <a href="index.html"><img src="assets/img/dark-logo1.png" alt="Mim" /></a>
-                </div>
-                <nav class="mainmenu-box onepage-nev">
-                    <ul class="clearfix">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#interests">Interests</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#values">Values</a></li>
-                        <li><a href="#contact">Contact me</a></li>
-                    </ul>
-                </nav>
-            </div> -->
         </div>
         <div class="bottom slider-area">
-            <div class="container">
+            <div class="container ml-5">
                 <div class="row relative">
                     <div class="col-xs-12 col-sm-8 static">
                         <div class="slider-text percent-50">
                             <h5 class="mb-11">Hello, my name is</h5>
                             <h1 class="mb-30">Christopher Mazzuca</h1>
-                            <p class="font-16 line-height-28" style="text-indent: 30px; padding-top: 10px">
+                            <p class="font-16 line-height-28" style="text-indent: 30px; padding-bottom: 1rem;">
                                 Welcome to my online portfolio! Feel free to contact me through the form below. Thank you for stopping by!
                             </p>
                         </div>
@@ -791,37 +769,6 @@
     <script src="assets/js/plugins.js"></script>
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
-
-    <!-- Start of Async Drift Code -->
-    <script>
-        "use strict";
-
-        ! function() {
-            var t = window.driftt = window.drift = window.driftt || [];
-            if (!t.init) {
-                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                    t.factory = function(e) {
-                        return function() {
-                            var n = Array.prototype.slice.call(arguments);
-                            return n.unshift(e), t.push(n), t;
-                        };
-                    }, t.methods.forEach(function(e) {
-                        t[e] = t.factory(e);
-                    }), t.load = function(t) {
-                        var e = 3e5,
-                            n = Math.ceil(new Date() / e) * e,
-                            o = document.createElement("script");
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                        var i = document.getElementsByTagName("script")[0];
-                        i.parentNode.insertBefore(o, i);
-                    };
-            }
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('c44ii9sx6ua6');
-    </script>
-    <!-- End of Async Drift Code -->
 </body>
 
 </html>
