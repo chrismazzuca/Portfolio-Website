@@ -62,7 +62,7 @@ img {
 }
 
 hr.line {
-	background: #f5f5f5 none repeat scroll 0 0;
+	background: #f3f9ff none repeat scroll 0 0;
 	border: 0 none;
 	height: 1px;
 	margin: 0 auto;
@@ -592,7 +592,7 @@ h6 {
 	background: #202020 none repeat scroll 0 0;
 }
 .bg-color-1 {
-	background: #f5f5f5 none repeat scroll 0 0;
+	background: #f3f9ff none repeat scroll 0 0;
 }
 .bg-color-2 {
 	background: #393939 none repeat scroll 0 0;
@@ -967,7 +967,7 @@ select {
 .header-top.is-sticky {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
             animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    background: #f5f5f5;
+    background: #f3f9ff;
     left: 0;
     padding: 10px 0;
     position: fixed;
@@ -1293,7 +1293,7 @@ select {
 	padding-top: 42px;
 }
 .testimonial-area .slick-track {
-	background: #f5f5f5 none repeat scroll 0 0;
+	background: #f3f9ff none repeat scroll 0 0;
 	cursor: ew-resize;
 }
 .testimonial-area .slide-text img {
@@ -1686,7 +1686,7 @@ select {
 }
 .dark-version .single-blog .date-comment,
 .dark-version .single-blog .blog-title {
-	background: #f5f5f5 none repeat scroll 0 0;
+	background: #f3f9ff none repeat scroll 0 0;
 }
 
 .dark-version .single-service {
