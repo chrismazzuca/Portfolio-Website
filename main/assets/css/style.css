@@ -949,7 +949,7 @@ select {
 /* sticky sticky
 -------------*/
 .header-style-1 .top {
-    min-height: 141px;
+    min-height: 125px;
 }
 .header-top {
     position: absolute;
