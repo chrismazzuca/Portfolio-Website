@@ -10,17 +10,39 @@
         content="Chris Mazzuca, Christopher Mazzuca, Portfolio, Personal portfolio, portfolio, personal">
     <title>Christopher Mazzuca</title>
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Christopher Mazzuca - Portfolio">
+    <meta property="og:description" content="Portfolio Website of Christopher Mazzuca">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/dark-logo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Christopher Mazzuca - Portfolio">
+    <meta name="twitter:description" content="Portfolio Website of Christopher Mazzuca">
+    <meta name="twitter:image" content="assets/img/dark-logo.png">
+
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/dark-logo-favicon.png">
 
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
     <!-- modernizr js -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js" defer></script>
 
 </head>
 
-<body style="position: absolute;">
+<body>
 
     <!-- Loading Bar Start -->
     <div id="loading">
@@ -35,7 +57,7 @@
     <div id="home"></div>
 
     <!-- Header Section Start -->
-    <header class="header-style-1 bg-color-1" style="width: 100%;">
+    <header class="header-style-1 bg-color-1">
         <div class="top clearfix">
             <div class="header-top active-sticky ptb-50" style="padding-left: 1.5rem;">
                 <div class="container" style="margin-left: 0;">
@@ -56,6 +78,7 @@
                                         <li><a href="#education">Education</a></li>
                                         <li><a href="#experience">Experience</a></li>
                                         <li><a href="#interests">Interests</a></li>
+                                        <li><a href="#certifications">Certifications</a></li>
                                         <li><a href="#portfolio">Portfolio</a></li>
                                         <li><a href="#values">Values</a></li>
                                         <li><a href="#contact">Contact</a></li>
@@ -83,6 +106,7 @@
                         <li><a href="#education">Education</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#interests">Interests</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#values">Values</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -164,7 +188,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Product Management">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -177,7 +201,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Problem Solving and Teamwork">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -190,7 +214,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Engineering Design">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -203,7 +227,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Communication">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -218,7 +242,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Web development">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -231,7 +255,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Artificial Intelligence and Machine Learning">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -244,7 +268,7 @@
                                     </span>
                                 </span>
                             </h4>
-                            <div class="progress-outter">
+                            <div class="progress-outter" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Agile development methodology">
                                 <div class="progress-content"></div>
                             </div>
                         </div>
@@ -461,8 +485,98 @@
     </section>
     <!-- Interests Section End -->
 
+    <!-- Certifications Section Start -->
+    <section class="light-bg ptb-40 clearfix" id="certifications" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+        <div class="container" style="margin: 0; width: 100%;">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title text-center mb-30">
+                        <h2 class="mb-20">My Project Portfolio</h2>
+                        <div class="horizontal-line">
+                            <div class="top"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 mobile-mb-30">
+                    <div class="left animate move-fadeInLeft">
+                        <div class="single-experi mb-50">
+                            <div class="left-text floatleft relative">
+                                <!-- <i class="zmdi zmdi-balance"></i> -->
+                                <h3 class="capitalize font-20">AI legal predictions</h3>
+                                <h5 class="montserrat weight-medium mb-5 capitalize">Undergraduate thesis</h4>
+                                <p class="montserrat weight-medium">2019</p>
+                            </div>
+                            <ul class="right-text" style="padding-left: 4rem; color: #333;">
+                                <li style="list-style-type: disc;">For my undergraduate thesis, I worked with Professor Niblett in the Law department
+                                    at the University of Toronto. We developed an AI-based model that was able to predicted legal citations reasonably
+                                    well, while exclusively reading the text.</li>
+                                <li style="list-style-type: disc;">You can read my thesis <a
+                                    style="font-weight: bold; text-transform: lowercase; color: #5e5e5e;"
+                                    href="./assets/Thesis.pdf" target="_blank">here</a>.</li>
+                            </ul>
+                        </div>
+                        <div class="single-experi">
+                            <div class="left-text floatleft">
+                                <!-- <i class="zmdi zmdi-code"></i> -->
+                                <h3 class="capitalize font-20">ShiftAI</h3>
+                                <h5 class="montserrat weight-medium mb-5 capitalize">Co-founder</h4>
+                                <p class="montserrat weight-medium">2018 - Present</p>
+                            </div>
+                            <ul class="right-text" style="padding-left: 4rem; color: #333;">
+                                <li style="list-style-type: disc;">Co-founded an initiative to introduce AI and Machine Learning analysis into the NHL.
+                                    We currently produce draft rankings for new prospects (using clustering), and have
+                                    started predicting NHL Playoff outcomes.</li>
+                                <li style="list-style-type: disc;">Our website is <a
+                                    style="font-weight: bold; text-transform: lowercase; color: #5e5e5e;"
+                                    href="https://shiftai.ca/" target="_blank">shiftai.ca</a>, and follow us on
+                                Twitter (<a style="font-weight: bold; text-transform: lowercase; color: #5e5e5e;"
+                                    href="https://twitter.com/ShiftAI" target="_blank">@ShiftAI</a>)!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="right animate move-fadeInRight">
+                        <div class="single-experi mb-50">
+                            <div class="left-text floatleft relative">
+                                <!-- <i class="zmdi zmdi-hospital"></i> -->
+                                <h3 class="capitalize font-20">ER Room Optimization</h3>
+                                <h5 class="montserrat weight-medium mb-5" style="text-transform: none;">Team member</h4>
+                                <p class="montserrat weight-medium">2019</p>
+                            </div>
+                            <ul class="right-text" style="padding-left: 4rem; color: #333;">
+                                <li style="list-style-type: disc;">Constructed Machine Learning models to help predict patient flow within the
+                                    Emergency Department of the North York General Hospital.</li>
+                                <li style="list-style-type: disc;">Using this tool, the staff is better able to allocate resources effectively, and
+                                    potentially increase capacity.</li>
+                            </ul>
+                        </div>
+                        <div class="single-experi">
+                            <div class="left-text floatleft">
+                                <!-- <i class="zmdi zmdi-android"></i> -->
+                                <h3 class="capitalize font-20">Autonomous Robot</h3>
+                                <h5 class="montserrat weight-medium mb-5 capitalize">Coding Lead</h4>
+                                <p class="montserrat weight-medium">2018</p>
+                            </div>
+                            <ul class="right-text" style="padding-left: 4rem; color: #333;">
+                                <li style="list-style-type: disc;">Working in a team of three, we built a fully autonomous robot that would sort
+                                    various objects into storage cabinets as requested by user input.</li>
+                                <li style="list-style-type: disc;">I led the code development, which controlled a variety of sensors and motors.
+                                    Our robot passed the final test, and scored top 10!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section End -->
+
     <!-- Portfolio Section Start -->
-    <section class="portfolio-area portfolio-one light-bg ptb-40 clearfix" id="portfolio" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+    <section class="portfolio-area portfolio-one bg-color-1 ptb-40 clearfix" id="portfolio" style="padding-left: 1.5rem; padding-right: 1.5rem;">
         <div class="container" style="margin: 0; width: 100%;">
             <div class="row">
                 <div class="col-xs-12">
@@ -552,7 +666,7 @@
     <!-- Portfolio Section End -->
 
     <!-- Values Section Start -->
-    <section class="service-area bg-color-1 ptb-40" id="values" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+    <section class="service-area light-bg ptb-40"  id="values" style="padding-left: 1.5rem; padding-right: 1.5rem;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -607,7 +721,7 @@
 
     <!-- Contact Section Start -->
     <hr>
-    <section class="contact-area light-bg ptb-40" id="contact" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+    <section class="contact-area bg-color-1 ptb-40" id="contact" style="padding-left: 1.5rem; padding-right: 1.5rem;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -677,8 +791,6 @@
     <script src="assets/js/progressbar.js"></script>
     <!-- Isotope -->
     <script src="assets/js/isotope.pkgd.js"></script>
-    <!-- Isotope -->
-    <script src="assets/js/jquery.validate.min.js"></script>
     <!-- Slick Slider JS -->
     <script src="assets/js/slick.min.js"></script>
     <!-- Fancybox JS -->
